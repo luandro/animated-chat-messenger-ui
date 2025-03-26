@@ -4,7 +4,10 @@ import supportMessages from "@/data/support_messages.json";
 import fundingMessagesPt from "@/data/grant_messages_pt.json";
 import courseMessagesPt from "@/data/course_messages_pt.json";
 import supportMessagesPt from "@/data/support_messages_pt.json";
-
+import productionMessages from "@/data/production_messages.json";
+import productionMessagesPt from "@/data/production_messages_pt.json";
+import ourProductionPt from "@/data/our_production_messages_pt.json";
+import ourProduction from "@/data/our_production_messages.json";
 import ChatContainer from "@/components/ChatContainer";
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -31,6 +34,10 @@ const Index = () => {
           return courseMessagesPt;
         case "support":
           return supportMessagesPt;
+        case "production":
+          return productionMessagesPt;
+        case "production_DM":
+          return ourProductionPt;
         default:
           return fundingMessagesPt;
       }
@@ -43,6 +50,10 @@ const Index = () => {
         return courseMessages;
       case "support":
         return supportMessages;
+      case "production":
+        return productionMessages;
+      case "production_DM":
+        return ourProduction;
       default:
         return fundingMessages;
     }

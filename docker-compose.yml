@@ -1,0 +1,15 @@
+services:
+  ux-web:
+    container_name: ${UX_APP}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - "80"
+    restart: unless-stopped
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge

@@ -9,7 +9,7 @@ export interface Message {
   text: string;
   timestamp: string;
   isSentByMe: boolean;
-  mediaType?: "video" | "document" | "button";
+  mediaType?: "video" | "document" | "button" | "image" | "audio";
   mediaUrl?: string;
   mediaTitle?: string;
   mediaSize?: string;
@@ -56,6 +56,33 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, showSender }) => {
             </div>
           </div>
         );
+      case "image":
+        return (
+          <div className="mt-2 rounded-lg overflow-hidden relative group">
+            <img
+              src={message.mediaUrl}
+              alt={message.mediaTitle}
+              className="w-full h-full object-cover rounded-lg cursor-pointer"
+              onError={() => {
+                console.log("Image failed to load");
+              }}
+            />
+          </div>
+        );
+      case "audio":
+        return (
+          <div className="mt-2 rounded-lg overflow-hidden relative group">
+            <audio
+              src={message.mediaUrl}
+              controls
+              preload="metadata"
+              className="w-full h-full object-cover rounded-lg cursor-pointer"
+              onError={() => {
+                console.log("Audio failed to load");
+              }}
+            />
+          </div>
+        );
       case "video":
         return (
           <div className="mt-2 rounded-lg overflow-hidden relative group">
@@ -69,6 +96,9 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, showSender }) => {
               <video
                 className="w-full h-full object-cover rounded-lg"
                 preload="metadata"
+                onError={() => {
+                  console.log("Video failed to load");
+                }}
               >
                 <source src={message.mediaUrl} type="video/mp4" />
                 Your browser does not support the video tag.

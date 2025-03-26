@@ -1,0 +1,3 @@
+ux-dona-fatima.duckdns.org {
+    reverse_proxy web:80
+}

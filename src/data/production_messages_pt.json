@@ -1,0 +1,52 @@
+[
+  {
+    "sender": "Maria",
+    "text": "Hoje eu colhi 10kg de cacau.",
+    "timestamp": "09:00 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Carulinda",
+    "text": "Eu colhi 5kg de macaxeira",
+    "timestamp": "09:10 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Naiara",
+    "text": "Eu colhi 2kg de macaxeira",
+    "timestamp": "09:11 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Vera",
+    "text": "Eu produzi 2 bolos de macaxeira",
+    "timestamp": "09:12 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Edna",
+    "text": "Eu produzi 20 mal casados, 10 cocadas e 3 bolos de puba",
+    "timestamp": "09:15 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Raimunda",
+    "text": "",
+    "timestamp": "09:20 AM",
+    "isSentByMe": false,
+    "mediaType": "audio",
+    "mediaUrl": "https://next.coolab.org/s/6GfkRaYxJ7nXZ49/download/2025-03-12_09-14-43.m4a"
+  },
+  {
+    "sender": "Iara",
+    "text": "@Dona_Fatima, quanto a gente produziu até agora?",
+    "timestamp": "09:16 AM",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Olha gente, calculei até agora: 20 mal casados, 10 cocadas, 3 bolos de puba, 2 bolos de macaxeira, 7kg de macaxeira, 10kg de cacau, 3 graviolas e 2kg de beterrabas",
+    "timestamp": "09:17 AM",
+    "isSentByMe": false
+  }
+]

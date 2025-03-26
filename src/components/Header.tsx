@@ -38,6 +38,8 @@ const Header = ({
     funding: "Funding Opportunity Plugin",
     course: "Course Plugin",
     support: "Product Support Plugin",
+    production: "Production Plugin",
+    production_DM: "Our Production Plugin",
   };
 
   return (

@@ -1,0 +1,281 @@
+[
+  {
+    "sender": "Rosana",
+    "text": "Bom dia Dona Fatima.",
+    "timestamp": "09:00 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Bom dia! Como posso te ajudar Rosana?",
+    "timestamp": "09:01 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Cadastrar Producao"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Claro! Vamos começar. Qual o nome da produtora/agricultora?",
+    "timestamp": "09:02 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "Edna",
+    "timestamp": "09:03 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Como as pessoas irao entrar em contato com a Edna?",
+    "timestamp": "09:03 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Zap"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Instagram"
+  },
+  {
+    "sender": "Rosana",
+    "text": "Whatsapp",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Qual o numero do whatsapp?",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "79 99999-8888",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Quer cadastrar Instagram?",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Sim"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Nao"
+  },
+  {
+    "sender": "Rosana",
+    "text": "Nao",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Em qual categoria a produção se enquadra?",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:04 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Agricola"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:05 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Artesanato"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:06 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Beneficiamento"
+  },
+  {
+    "sender": "Rosana",
+    "text": "Beneficiamento",
+    "timestamp": "09:06 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Perfeito. Pode me dizer quais produtos Edna beneficia?",
+    "timestamp": "09:06 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "Beiju, Bolo de Puba, mal casados",
+    "timestamp": "09:07 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Você pode me enviar uma foto desses produtos?",
+    "timestamp": "09:08 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "",
+    "timestamp": "09:10 AM",
+    "isSentByMe": false,
+    "mediaType": "image",
+    "mediaUrl": "https://ibin.co/8adMRuLda1L8.jpg",
+    "mediaTitle": "Beiju, Bolo de Puba, mal casados"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Pode me escrever ou dizer uma breve descrição do que esta nessa foto?",
+    "timestamp": "09:11 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "Beiju sendo produzidos",
+    "timestamp": "09:12 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Gostaria de me enviar algo mais?",
+    "timestamp": "09:13 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Foto"
+  },
+  { 
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:13 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Video"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:13 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Audio"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Me envie a outra foto por favor.",
+    "timestamp": "09:13 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "",
+    "timestamp": "09:14 AM",
+    "isSentByMe": false,
+    "mediaType": "image",
+    "mediaUrl": "https://ibin.co/8adMlGVwJtJq.jpg",
+    "mediaTitle": "Farinha para beiju"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Pode me escrever ou dizer uma breve descrição do que esta nessa foto?",
+    "timestamp": "09:15 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "Farinha para beiju",
+    "timestamp": "09:15 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Gostaria de me enviar algo mais?",
+    "timestamp": "09:16 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Foto"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:16 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Video"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:16 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Audio"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:16 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Nao"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Ok. Essas fotos sao suficiente. Para finalizar, porque as pessoas deveriam comprar os produtos de Edna? Pode ser escrever ou falar.",
+    "timestamp": "09:16 AM",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Rosana",
+    "text": "",
+    "timestamp": "09:17 AM",
+    "isSentByMe": false,
+    "mediaType": "audio",
+    "mediaUrl": "https://next.coolab.org/s/6GfkRaYxJ7nXZ49/download/2025-03-12_09-14-43.m4a",
+    "mediaTitle": "Porque os beijus sao caseiros e produtos de qualidade?"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Pronto! Posso publicar a producao de Edna?",
+    "timestamp": "09:18 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Sim" 
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "",
+    "timestamp": "09:18 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Nao"
+  },
+  {
+    "sender": "Dona Fatima (Bot)",
+    "text": "Publicado! Confira como ficou clicando abaixo",
+    "timestamp": "10:18 AM",
+    "isSentByMe": false,
+    "mediaType": "button",
+    "buttonText": "Ver"
+  }
+]
