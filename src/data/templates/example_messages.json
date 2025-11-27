@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "sender": "Bot Name",
+    "text": "First message from the bot",
+    "timestamp": "10:00 AM",
+    "isSentByMe": false
+  },
+  {
+    "id": 2,
+    "sender": "User",
+    "text": "User's response",
+    "timestamp": "10:01 AM",
+    "isSentByMe": true
+  },
+  {
+    "id": 3,
+    "sender": "Bot Name",
+    "text": "Bot's follow-up message",
+    "timestamp": "10:02 AM",
+    "isSentByMe": false
+  }
+]
