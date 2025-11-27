@@ -61,7 +61,7 @@
   },
   {
     "sender": "Bot",
-    "text": "Phrase to validate: "The river is rising quickly." Please translate this into your Indigenous language.",
+    "text": "Phrase to validate: \"The river is rising quickly.\" Please translate this into your Indigenous language.",
     "timestamp": "2025-01-01T10:02:00Z",
     "isSentByMe": false
   },
@@ -113,7 +113,7 @@
   },
   {
     "sender": "Bot",
-    "text": "Original English phrase: "The river is rising quickly."",
+    "text": "Original English phrase: \"The river is rising quickly.\"",
     "timestamp": "2025-01-01T10:05:10Z",
     "isSentByMe": false
   },
@@ -161,7 +161,7 @@
   },
   {
     "sender": "Bot",
-    "text": "Original phrase: "The river is rising quickly."",
+    "text": "Original phrase: \"The river is rising quickly.\"",
     "timestamp": "2025-01-01T10:10:10Z",
     "isSentByMe": false
   },

@@ -61,7 +61,7 @@
   },
   {
     "sender": "Bot",
-    "text": "Frase para validar: "O rio está subindo rapidamente." Por favor, traduza isso para o seu idioma indígena.",
+    "text": "Frase para validar: \"O rio está subindo rapidamente.\" Por favor, traduza isso para o seu idioma indígena.",
     "timestamp": "2025-01-01T10:02:00Z",
     "isSentByMe": false
   },
@@ -113,7 +113,7 @@
   },
   {
     "sender": "Bot",
-    "text": "Frase original em inglês: "O rio está subindo rapidamente."",
+    "text": "Frase original em inglês: \"O rio está subindo rapidamente.\"",
     "timestamp": "2025-01-01T10:05:10Z",
     "isSentByMe": false
   },
@@ -161,7 +161,7 @@
   },
   {
     "sender": "Bot",
-    "text": "Frase original: "O rio está subindo rapidamente."",
+    "text": "Frase original: \"O rio está subindo rapidamente.\"",
     "timestamp": "2025-01-01T10:10:10Z",
     "isSentByMe": false
   },
