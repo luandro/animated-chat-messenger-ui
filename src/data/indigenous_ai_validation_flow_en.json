@@ -1,0 +1,198 @@
+[
+  {
+    "sender": "Bot",
+    "text": "Welcome! I am the Indigenous AI data collection assistant. Before we start, I'd like to know a bit about you.",
+    "timestamp": "2025-01-01T10:00:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "First question: Which community or territory are you from?",
+    "timestamp": "2025-01-01T10:00:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Youth",
+    "text": "I am from the [Youth community name] community.",
+    "timestamp": "2025-01-01T10:00:25Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Thank you. Which languages do you speak fluently?",
+    "timestamp": "2025-01-01T10:00:35Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Youth",
+    "text": "I speak [Indigenous language name] and [colonial language name].",
+    "timestamp": "2025-01-01T10:00:50Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "And which languages can you read and write comfortably?",
+    "timestamp": "2025-01-01T10:01:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Youth",
+    "text": "I can read and write in [Indigenous language name] and [colonial language name].",
+    "timestamp": "2025-01-01T10:01:15Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Great. Last onboarding question: Are you comfortable helping with translations, transcriptions, and short audio recordings?",
+    "timestamp": "2025-01-01T10:01:25Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Youth",
+    "text": "Yes, I can help with that.",
+    "timestamp": "2025-01-01T10:01:40Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Perfect. Let's start with our first phrase.",
+    "timestamp": "2025-01-01T10:01:50Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Phrase to validate: "The river is rising quickly." Please translate this into your Indigenous language.",
+    "timestamp": "2025-01-01T10:02:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Youth",
+    "text": "Sure, here is my translation attempt.",
+    "timestamp": "2025-01-01T10:02:10Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Youth",
+    "text": "[Youth provides indigenous-language translation]",
+    "timestamp": "2025-01-01T10:02:20Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Great. Now please provide an audio recording of you reading this phrase so the next user can verify.",
+    "timestamp": "2025-01-01T10:02:30Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Youth",
+    "text": "Uploading audio now.",
+    "timestamp": "2025-01-01T10:02:45Z",
+    "isSentByMe": true,
+    "mediaType": "document",
+    "mediaUrl": "https://example.com/youth_audio.wav",
+    "mediaTitle": "Youth Audio",
+    "mediaSize": "1.2 MB"
+  },
+  {
+    "sender": "Bot",
+    "text": "Thanks. Your translation and audio will now be reviewed by another speaker.",
+    "timestamp": "2025-01-01T10:02:55Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Now inviting a mid-age speaker to review this data point.",
+    "timestamp": "2025-01-01T10:03:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Please review the translation and audio provided by the Youth contributor.",
+    "timestamp": "2025-01-01T10:05:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Original English phrase: "The river is rising quickly."",
+    "timestamp": "2025-01-01T10:05:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Youth translation: [Youth indigenous-language translation]. Please confirm if it is correct or suggest improvements.",
+    "timestamp": "2025-01-01T10:05:20Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Mid-Age",
+    "text": "The translation is mostly correct. I will adjust it slightly for proper grammar.",
+    "timestamp": "2025-01-01T10:05:35Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Mid-Age",
+    "text": "[Mid-age corrected indigenous-language translation]",
+    "timestamp": "2025-01-01T10:05:50Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Thank you. Now please transcribe the Youth audio to confirm it matches the phrase.",
+    "timestamp": "2025-01-01T10:06:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Mid-Age",
+    "text": "[Mid-age transcription of youth audio]",
+    "timestamp": "2025-01-01T10:06:15Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Perfect. Your corrections will now be sent to an Elder for final validation.",
+    "timestamp": "2025-01-01T10:06:25Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Now inviting an Elder speaker to perform the final validation.",
+    "timestamp": "2025-01-01T10:10:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Original phrase: "The river is rising quickly."",
+    "timestamp": "2025-01-01T10:10:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Corrected translation by the Mid-Age speaker: [Mid-age corrected indigenous-language translation].",
+    "timestamp": "2025-01-01T10:10:20Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Please confirm if this is correct for your dialect and add any cultural notes if needed.",
+    "timestamp": "2025-01-01T10:10:30Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Elder",
+    "text": "Yes, this translation is correct. I will add a small note about how this phrase is commonly expressed.",
+    "timestamp": "2025-01-01T10:10:50Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Elder",
+    "text": "[Elder final validated version + cultural comment]",
+    "timestamp": "2025-01-01T10:11:05Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Thank you. This data point is now fully validated and ready to be used for training Indigenous-language AI tools under community control.",
+    "timestamp": "2025-01-01T10:11:20Z",
+    "isSentByMe": false
+  }
+]
