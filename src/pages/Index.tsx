@@ -1,10 +1,4 @@
-import fundingMessages from "@/data/grant_messages.json";
-import courseMessages from "@/data/course_messages.json"; 
-import supportMessages from "@/data/support_messages.json";
-import fundingMessagesPt from "@/data/grant_messages_pt.json";
-import courseMessagesPt from "@/data/course_messages_pt.json";
-import supportMessagesPt from "@/data/support_messages_pt.json";
-
+import { getDialogueById } from "@/config/dialogues";
 import ChatContainer from "@/components/ChatContainer";
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -23,29 +17,7 @@ const Index = () => {
   const [story, setStory] = useState(location.pathname.slice(1) || "funding");
 
   const getMessages = () => {
-    if (language === "pt") {
-      switch (story) {
-        case "funding":
-          return fundingMessagesPt;
-        case "course":
-          return courseMessagesPt;
-        case "support":
-          return supportMessagesPt;
-        default:
-          return fundingMessagesPt;
-      }
-    }
-
-    switch (story) {
-      case "funding":
-        return fundingMessages;
-      case "course":
-        return courseMessages;
-      case "support":
-        return supportMessages;
-      default:
-        return fundingMessages;
-    }
+    return getDialogueById(story, language);
   };
 
 

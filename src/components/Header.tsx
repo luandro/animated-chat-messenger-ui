@@ -16,6 +16,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import NavigationButtons from "./NavigationButtons";
+import { dialogues } from "@/config/dialogues";
 
 interface HeaderProps {
   currentStory: string;
@@ -34,12 +35,6 @@ const Header = ({
   onReset,
   onAdvance,
 }: HeaderProps) => {
-  const stories = {
-    funding: "Funding Opportunity Plugin",
-    course: "Course Plugin",
-    support: "Product Support Plugin",
-  };
-
   return (
     <div className="bg-chat-bubble-received/30 p-4 flex justify-between items-center">
       <div className="flex gap-2">
@@ -48,13 +43,13 @@ const Header = ({
             <SelectValue placeholder="Select story" />
           </SelectTrigger>
           <SelectContent className="bg-zinc-900 border border-zinc-800">
-            {Object.entries(stories).map(([key, value]) => (
+            {dialogues.map((dialogue) => (
               <SelectItem
-                key={key}
-                value={key}
+                key={dialogue.id}
+                value={dialogue.id}
                 className="text-zinc-100 hover:bg-zinc-800 cursor-pointer transition-colors"
               >
-                {value}
+                {dialogue.name}
               </SelectItem>
             ))}
           </SelectContent>
