@@ -1,0 +1,198 @@
+[
+  {
+    "sender": "Bot",
+    "text": "Bem-vindo! Eu sou o assistente de coleta de dados de IA Indígena. Antes de começarmos, gostaria de saber um pouco sobre você.",
+    "timestamp": "2025-01-01T10:00:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Primeira pergunta: De qual comunidade ou território você é?",
+    "timestamp": "2025-01-01T10:00:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Jovem",
+    "text": "Eu sou da comunidade [nome da comunidade do jovem].",
+    "timestamp": "2025-01-01T10:00:25Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Obrigado. Quais idiomas você fala fluentemente?",
+    "timestamp": "2025-01-01T10:00:35Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Jovem",
+    "text": "Eu falo [nome do idioma indígena] e [nome do idioma colonial].",
+    "timestamp": "2025-01-01T10:00:50Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "E quais idiomas você consegue ler e escrever confortavelmente?",
+    "timestamp": "2025-01-01T10:01:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Jovem",
+    "text": "Eu consigo ler e escrever em [nome do idioma indígena] e [nome do idioma colonial].",
+    "timestamp": "2025-01-01T10:01:15Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Ótimo. Última pergunta de integração: Você se sente confortável ajudando com traduções, transcrições e gravações de áudio curtas?",
+    "timestamp": "2025-01-01T10:01:25Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Jovem",
+    "text": "Sim, eu posso ajudar com isso.",
+    "timestamp": "2025-01-01T10:01:40Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Perfeito. Vamos começar com nossa primeira frase.",
+    "timestamp": "2025-01-01T10:01:50Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Frase para validar: "O rio está subindo rapidamente." Por favor, traduza isso para o seu idioma indígena.",
+    "timestamp": "2025-01-01T10:02:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Jovem",
+    "text": "Claro, aqui está minha tentativa de tradução.",
+    "timestamp": "2025-01-01T10:02:10Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Jovem",
+    "text": "[Jovem fornece tradução para o idioma indígena]",
+    "timestamp": "2025-01-01T10:02:20Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Ótimo. Agora, por favor, forneça uma gravação de áudio de você lendo esta frase para que o próximo usuário possa verificar.",
+    "timestamp": "2025-01-01T10:02:30Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Jovem",
+    "text": "Enviando áudio agora.",
+    "timestamp": "2025-01-01T10:02:45Z",
+    "isSentByMe": true,
+    "mediaType": "document",
+    "mediaUrl": "https://example.com/youth_audio.wav",
+    "mediaTitle": "Áudio do Jovem",
+    "mediaSize": "1.2 MB"
+  },
+  {
+    "sender": "Bot",
+    "text": "Obrigado. Sua tradução e áudio agora serão revisados por outro falante.",
+    "timestamp": "2025-01-01T10:02:55Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Agora convidando um falante de meia-idade para revisar este ponto de dados.",
+    "timestamp": "2025-01-01T10:03:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Por favor, revise a tradução e o áudio fornecidos pelo contribuidor jovem.",
+    "timestamp": "2025-01-01T10:05:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Frase original em inglês: "O rio está subindo rapidamente."",
+    "timestamp": "2025-01-01T10:05:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Tradução do jovem: [tradução do jovem para o idioma indígena]. Por favor, confirme se está correta ou sugira melhorias.",
+    "timestamp": "2025-01-01T10:05:20Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Meia-Idade",
+    "text": "A tradução está quase correta. Vou ajustá-la ligeiramente para a gramática adequada.",
+    "timestamp": "2025-01-01T10:05:35Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Meia-Idade",
+    "text": "[Tradução corrigida pelo falante de meia-idade para o idioma indígena]",
+    "timestamp": "2025-01-01T10:05:50Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Obrigado. Agora, por favor, transcreva o áudio do jovem para confirmar que corresponde à frase.",
+    "timestamp": "2025-01-01T10:06:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Meia-Idade",
+    "text": "[Transcrição do áudio do jovem pelo falante de meia-idade]",
+    "timestamp": "2025-01-01T10:06:15Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Perfeito. Suas correções agora serão enviadas a um Ancião para validação final.",
+    "timestamp": "2025-01-01T10:06:25Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Agora convidando um falante Ancião para realizar a validação final.",
+    "timestamp": "2025-01-01T10:10:00Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Frase original: "O rio está subindo rapidamente."",
+    "timestamp": "2025-01-01T10:10:10Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Tradução corrigida pelo falante de meia-idade: [tradução corrigida para o idioma indígena].",
+    "timestamp": "2025-01-01T10:10:20Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Bot",
+    "text": "Por favor, confirme se isso está correto para o seu dialeto e adicione quaisquer notas culturais, se necessário.",
+    "timestamp": "2025-01-01T10:10:30Z",
+    "isSentByMe": false
+  },
+  {
+    "sender": "Ancião",
+    "text": "Sim, esta tradução está correta. Vou adicionar uma pequena nota sobre como esta frase é comumente expressa.",
+    "timestamp": "2025-01-01T10:10:50Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Ancião",
+    "text": "[Versão final validada pelo Ancião + comentário cultural]",
+    "timestamp": "2025-01-01T10:11:05Z",
+    "isSentByMe": true
+  },
+  {
+    "sender": "Bot",
+    "text": "Obrigado. Este ponto de dados agora está totalmente validado e pronto para ser usado no treinamento de ferramentas de IA em idiomas indígenas sob controle da comunidade.",
+    "timestamp": "2025-01-01T10:11:20Z",
+    "isSentByMe": false
+  }
+]
