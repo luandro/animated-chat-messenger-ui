@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Message } from "@/data/grant_messages";
+import { Message } from "@/types/message";
 import ChatMessage from "./ChatMessage";
 import TypingIndicator from "./TypingIndicator";
 
